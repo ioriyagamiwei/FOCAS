@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Moon Flower.ttf">
+            <string>MoonFlower</string>
+            <string>MoonFlower</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FOCUS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Face down" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LSM-Zt-Xqe">
+                                <rect key="frame" x="50" y="0.0" width="500" height="600"/>
+                                <fontDescription key="fontDescription" name="MoonFlower" family="Moon Flower" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCG-9U-t6z">
+                                <rect key="frame" x="70" y="540" width="530" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1tp-ZJ-oyR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MoonFlower" family="Moon Flower" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watch.001" translatesAutoresizingMaskIntoConstraints="NO" id="TWa-ol-bZb">
+                                <rect key="frame" x="10" y="540" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aFM-bo-qfS"/>
+                                    <constraint firstAttribute="width" constant="50" id="wdq-ac-0bX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="cCG-9U-t6z" secondAttribute="trailing" constant="-20" id="Ird-vs-DHV"/>
+                            <constraint firstItem="cCG-9U-t6z" firstAttribute="leading" secondItem="TWa-ol-bZb" secondAttribute="trailing" constant="10" id="LDG-h6-r7w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LSM-Zt-Xqe" secondAttribute="trailing" constant="30" id="XBm-to-2EP"/>
+                            <constraint firstItem="LSM-Zt-Xqe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="cd9-PD-VmH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cCG-9U-t6z" secondAttribute="bottom" constant="10" id="ctA-hV-vEp"/>
+                            <constraint firstItem="LSM-Zt-Xqe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="f3h-hM-dZ0"/>
+                            <constraint firstItem="TWa-ol-bZb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-10" id="hAS-Ca-tDe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LSM-Zt-Xqe" secondAttribute="bottom" id="vFE-wl-43Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TWa-ol-bZb" secondAttribute="bottom" constant="10" id="wag-QX-coj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connection" destination="cCG-9U-t6z" id="22K-gT-ngU"/>
+                        <outlet property="label" destination="LSM-Zt-Xqe" id="jve-76-yWM"/>
+                        <outlet property="watchIcon" destination="TWa-ol-bZb" id="aAh-2B-7iY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="402"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="watch.001" width="250" height="250"/>
+    </resources>
+</document>

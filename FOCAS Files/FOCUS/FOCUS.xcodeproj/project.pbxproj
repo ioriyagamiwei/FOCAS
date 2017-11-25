@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74198FB01D956AEE006C065A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198FAF1D956AEE006C065A /* AppDelegate.swift */; };
+		74198FB21D956AEE006C065A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198FB11D956AEE006C065A /* ViewController.swift */; };
+		74198FB51D956AEE006C065A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74198FB31D956AEE006C065A /* Main.storyboard */; };
+		74198FB71D956AEE006C065A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74198FB61D956AEE006C065A /* Assets.xcassets */; };
+		74198FBA1D956AEE006C065A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74198FB81D956AEE006C065A /* LaunchScreen.storyboard */; };
+		74198FC51D956AEF006C065A /* FOCUSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198FC41D956AEF006C065A /* FOCUSTests.swift */; };
+		74198FD01D956AEF006C065A /* FOCUSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74198FCF1D956AEF006C065A /* FOCUSUITests.swift */; };
+		74198FDF1D9771BF006C065A /* Moon Flower Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74198FDD1D9771BF006C065A /* Moon Flower Bold.ttf */; };
+		74198FE01D9771BF006C065A /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74198FDE1D9771BF006C065A /* Moon Flower.ttf */; };
+		741990931D977A57006C065A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741990911D977A57006C065A /* Interface.storyboard */; };
+		741990951D977A57006C065A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741990941D977A57006C065A /* Assets.xcassets */; };
+		7419909C1D977A57006C065A /* FOCUS wk Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7419909B1D977A57006C065A /* FOCUS wk Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		741990A31D977A57006C065A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741990A21D977A57006C065A /* InterfaceController.swift */; };
+		741990A51D977A57006C065A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741990A41D977A57006C065A /* ExtensionDelegate.swift */; };
+		741990A71D977A57006C065A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741990A61D977A57006C065A /* NotificationController.swift */; };
+		741990AB1D977A57006C065A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741990AA1D977A57006C065A /* Assets.xcassets */; };
+		741990AF1D977A57006C065A /* FOCUS wk.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7419908F1D977A57006C065A /* FOCUS wk.app */; };
+		741990BA1D977CEE006C065A /* Moon Flower Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 741990B81D977CEE006C065A /* Moon Flower Bold.ttf */; };
+		741990BB1D977CEE006C065A /* Moon Flower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 741990B91D977CEE006C065A /* Moon Flower.ttf */; };
+		7499573D1D9AA8F200930429 /* FOCUS.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 7499573C1D9AA8F200930429 /* FOCUS.entitlements */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74198FC11D956AEF006C065A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74198FA41D956AEE006C065A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74198FAB1D956AEE006C065A;
+			remoteInfo = FOCUS;
+		};
+		74198FCC1D956AEF006C065A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74198FA41D956AEE006C065A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74198FAB1D956AEE006C065A;
+			remoteInfo = FOCUS;
+		};
+		7419909D1D977A57006C065A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74198FA41D956AEE006C065A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7419909A1D977A57006C065A;
+			remoteInfo = "FOCUS wk Extension";
+		};
+		741990AD1D977A57006C065A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74198FA41D956AEE006C065A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7419908E1D977A57006C065A;
+			remoteInfo = "FOCUS wk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		741990B31D977A57006C065A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7419909C1D977A57006C065A /* FOCUS wk Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741990B71D977A57006C065A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				741990AF1D977A57006C065A /* FOCUS wk.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74198FAC1D956AEE006C065A /* FOCUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOCUS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74198FAF1D956AEE006C065A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74198FB11D956AEE006C065A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74198FB41D956AEE006C065A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74198FB61D956AEE006C065A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74198FB91D956AEE006C065A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74198FBB1D956AEE006C065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74198FC01D956AEF006C065A /* FOCUSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOCUSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74198FC41D956AEF006C065A /* FOCUSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOCUSTests.swift; sourceTree = "<group>"; };
+		74198FC61D956AEF006C065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74198FCB1D956AEF006C065A /* FOCUSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOCUSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74198FCF1D956AEF006C065A /* FOCUSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOCUSUITests.swift; sourceTree = "<group>"; };
+		74198FD11D956AEF006C065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74198FDD1D9771BF006C065A /* Moon Flower Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower Bold.ttf"; sourceTree = "<group>"; };
+		74198FDE1D9771BF006C065A /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower.ttf"; sourceTree = "<group>"; };
+		7419908F1D977A57006C065A /* FOCUS wk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FOCUS wk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741990921D977A57006C065A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		741990941D977A57006C065A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741990961D977A57006C065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7419909B1D977A57006C065A /* FOCUS wk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FOCUS wk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741990A11D977A57006C065A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		741990A21D977A57006C065A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		741990A41D977A57006C065A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		741990A61D977A57006C065A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		741990AA1D977A57006C065A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741990AC1D977A57006C065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741990B81D977CEE006C065A /* Moon Flower Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower Bold.ttf"; sourceTree = "<group>"; };
+		741990B91D977CEE006C065A /* Moon Flower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower.ttf"; sourceTree = "<group>"; };
+		746A6AF81D9AAF7B00853BA8 /* FOCUS wk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FOCUS wk.entitlements"; sourceTree = "<group>"; };
+		7499573C1D9AA8F200930429 /* FOCUS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FOCUS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74198FA91D956AEE006C065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74198FBD1D956AEF006C065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74198FC81D956AEF006C065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741990981D977A57006C065A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74198FA31D956AEE006C065A = {
+			isa = PBXGroup;
+			children = (
+				74198FAE1D956AEE006C065A /* FOCUS */,
+				74198FC31D956AEF006C065A /* FOCUSTests */,
+				74198FCE1D956AEF006C065A /* FOCUSUITests */,
+				741990901D977A57006C065A /* FOCUS wk */,
+				7419909F1D977A57006C065A /* FOCUS wk Extension */,
+				74198FAD1D956AEE006C065A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74198FAD1D956AEE006C065A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74198FAC1D956AEE006C065A /* FOCUS.app */,
+				74198FC01D956AEF006C065A /* FOCUSTests.xctest */,
+				74198FCB1D956AEF006C065A /* FOCUSUITests.xctest */,
+				7419908F1D977A57006C065A /* FOCUS wk.app */,
+				7419909B1D977A57006C065A /* FOCUS wk Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74198FAE1D956AEE006C065A /* FOCUS */ = {
+			isa = PBXGroup;
+			children = (
+				7499573C1D9AA8F200930429 /* FOCUS.entitlements */,
+				74198FAF1D956AEE006C065A /* AppDelegate.swift */,
+				74198FB11D956AEE006C065A /* ViewController.swift */,
+				74198FB31D956AEE006C065A /* Main.storyboard */,
+				74198FB61D956AEE006C065A /* Assets.xcassets */,
+				74198FB81D956AEE006C065A /* LaunchScreen.storyboard */,
+				74198FDD1D9771BF006C065A /* Moon Flower Bold.ttf */,
+				74198FDE1D9771BF006C065A /* Moon Flower.ttf */,
+				74198FBB1D956AEE006C065A /* Info.plist */,
+			);
+			path = FOCUS;
+			sourceTree = "<group>";
+		};
+		74198FC31D956AEF006C065A /* FOCUSTests */ = {
+			isa = PBXGroup;
+			children = (
+				74198FC41D956AEF006C065A /* FOCUSTests.swift */,
+				74198FC61D956AEF006C065A /* Info.plist */,
+			);
+			path = FOCUSTests;
+			sourceTree = "<group>";
+		};
+		74198FCE1D956AEF006C065A /* FOCUSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74198FCF1D956AEF006C065A /* FOCUSUITests.swift */,
+				74198FD11D956AEF006C065A /* Info.plist */,
+			);
+			path = FOCUSUITests;
+			sourceTree = "<group>";
+		};
+		741990901D977A57006C065A /* FOCUS wk */ = {
+			isa = PBXGroup;
+			children = (
+				746A6AF81D9AAF7B00853BA8 /* FOCUS wk.entitlements */,
+				741990911D977A57006C065A /* Interface.storyboard */,
+				741990941D977A57006C065A /* Assets.xcassets */,
+				741990961D977A57006C065A /* Info.plist */,
+			);
+			path = "FOCUS wk";
+			sourceTree = "<group>";
+		};
+		7419909F1D977A57006C065A /* FOCUS wk Extension */ = {
+			isa = PBXGroup;
+			children = (
+				741990A21D977A57006C065A /* InterfaceController.swift */,
+				741990A41D977A57006C065A /* ExtensionDelegate.swift */,
+				741990A61D977A57006C065A /* NotificationController.swift */,
+				741990AA1D977A57006C065A /* Assets.xcassets */,
+				741990B81D977CEE006C065A /* Moon Flower Bold.ttf */,
+				741990B91D977CEE006C065A /* Moon Flower.ttf */,
+				741990AC1D977A57006C065A /* Info.plist */,
+				741990A01D977A57006C065A /* Supporting Files */,
+			);
+			path = "FOCUS wk Extension";
+			sourceTree = "<group>";
+		};
+		741990A01D977A57006C065A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				741990A11D977A57006C065A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74198FAB1D956AEE006C065A /* FOCUS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74198FD41D956AEF006C065A /* Build configuration list for PBXNativeTarget "FOCUS" */;
+			buildPhases = (
+				74198FA81D956AEE006C065A /* Sources */,
+				74198FA91D956AEE006C065A /* Frameworks */,
+				74198FAA1D956AEE006C065A /* Resources */,
+				741990B71D977A57006C065A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741990AE1D977A57006C065A /* PBXTargetDependency */,
+			);
+			name = FOCUS;
+			productName = FOCUS;
+			productReference = 74198FAC1D956AEE006C065A /* FOCUS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74198FBF1D956AEF006C065A /* FOCUSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74198FD71D956AEF006C065A /* Build configuration list for PBXNativeTarget "FOCUSTests" */;
+			buildPhases = (
+				74198FBC1D956AEF006C065A /* Sources */,
+				74198FBD1D956AEF006C065A /* Frameworks */,
+				74198FBE1D956AEF006C065A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74198FC21D956AEF006C065A /* PBXTargetDependency */,
+			);
+			name = FOCUSTests;
+			productName = FOCUSTests;
+			productReference = 74198FC01D956AEF006C065A /* FOCUSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74198FCA1D956AEF006C065A /* FOCUSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74198FDA1D956AEF006C065A /* Build configuration list for PBXNativeTarget "FOCUSUITests" */;
+			buildPhases = (
+				74198FC71D956AEF006C065A /* Sources */,
+				74198FC81D956AEF006C065A /* Frameworks */,
+				74198FC91D956AEF006C065A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74198FCD1D956AEF006C065A /* PBXTargetDependency */,
+			);
+			name = FOCUSUITests;
+			productName = FOCUSUITests;
+			productReference = 74198FCB1D956AEF006C065A /* FOCUSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7419908E1D977A57006C065A /* FOCUS wk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741990B41D977A57006C065A /* Build configuration list for PBXNativeTarget "FOCUS wk" */;
+			buildPhases = (
+				7419908D1D977A57006C065A /* Resources */,
+				741990B31D977A57006C065A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7419909E1D977A57006C065A /* PBXTargetDependency */,
+			);
+			name = "FOCUS wk";
+			productName = "FOCUS wk";
+			productReference = 7419908F1D977A57006C065A /* FOCUS wk.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7419909A1D977A57006C065A /* FOCUS wk Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741990B01D977A57006C065A /* Build configuration list for PBXNativeTarget "FOCUS wk Extension" */;
+			buildPhases = (
+				741990971D977A57006C065A /* Sources */,
+				741990981D977A57006C065A /* Frameworks */,
+				741990991D977A57006C065A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FOCUS wk Extension";
+			productName = "FOCUS wk Extension";
+			productReference = 7419909B1D977A57006C065A /* FOCUS wk Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74198FA41D956AEE006C065A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JLim;
+				TargetAttributes = {
+					74198FAB1D956AEE006C065A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XPZ2DXUGSX;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					74198FBF1D956AEF006C065A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 74198FAB1D956AEE006C065A;
+					};
+					74198FCA1D956AEF006C065A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 74198FAB1D956AEE006C065A;
+					};
+					7419908E1D977A57006C065A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XPZ2DXUGSX;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					7419909A1D977A57006C065A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XPZ2DXUGSX;
+					};
+				};
+			};
+			buildConfigurationList = 74198FA71D956AEE006C065A /* Build configuration list for PBXProject "FOCUS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74198FA31D956AEE006C065A;
+			productRefGroup = 74198FAD1D956AEE006C065A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74198FAB1D956AEE006C065A /* FOCUS */,
+				74198FBF1D956AEF006C065A /* FOCUSTests */,
+				74198FCA1D956AEF006C065A /* FOCUSUITests */,
+				7419908E1D977A57006C065A /* FOCUS wk */,
+				7419909A1D977A57006C065A /* FOCUS wk Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74198FAA1D956AEE006C065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74198FE01D9771BF006C065A /* Moon Flower.ttf in Resources */,
+				74198FBA1D956AEE006C065A /* LaunchScreen.storyboard in Resources */,
+				7499573D1D9AA8F200930429 /* FOCUS.entitlements in Resources */,
+				74198FDF1D9771BF006C065A /* Moon Flower Bold.ttf in Resources */,
+				74198FB71D956AEE006C065A /* Assets.xcassets in Resources */,
+				74198FB51D956AEE006C065A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74198FBE1D956AEF006C065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74198FC91D956AEF006C065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7419908D1D977A57006C065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741990951D977A57006C065A /* Assets.xcassets in Resources */,
+				741990BA1D977CEE006C065A /* Moon Flower Bold.ttf in Resources */,
+				741990931D977A57006C065A /* Interface.storyboard in Resources */,
+				741990BB1D977CEE006C065A /* Moon Flower.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741990991D977A57006C065A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741990AB1D977A57006C065A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74198FA81D956AEE006C065A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74198FB21D956AEE006C065A /* ViewController.swift in Sources */,
+				74198FB01D956AEE006C065A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74198FBC1D956AEF006C065A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74198FC51D956AEF006C065A /* FOCUSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74198FC71D956AEF006C065A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74198FD01D956AEF006C065A /* FOCUSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741990971D977A57006C065A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741990A71D977A57006C065A /* NotificationController.swift in Sources */,
+				741990A51D977A57006C065A /* ExtensionDelegate.swift in Sources */,
+				741990A31D977A57006C065A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74198FC21D956AEF006C065A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74198FAB1D956AEE006C065A /* FOCUS */;
+			targetProxy = 74198FC11D956AEF006C065A /* PBXContainerItemProxy */;
+		};
+		74198FCD1D956AEF006C065A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74198FAB1D956AEE006C065A /* FOCUS */;
+			targetProxy = 74198FCC1D956AEF006C065A /* PBXContainerItemProxy */;
+		};
+		7419909E1D977A57006C065A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7419909A1D977A57006C065A /* FOCUS wk Extension */;
+			targetProxy = 7419909D1D977A57006C065A /* PBXContainerItemProxy */;
+		};
+		741990AE1D977A57006C065A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7419908E1D977A57006C065A /* FOCUS wk */;
+			targetProxy = 741990AD1D977A57006C065A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74198FB31D956AEE006C065A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74198FB41D956AEE006C065A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74198FB81D956AEE006C065A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74198FB91D956AEE006C065A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		741990911D977A57006C065A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741990921D977A57006C065A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74198FD21D956AEF006C065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c33ae7f4-f088-4635-935d-8f7505a77bcf";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74198FD31D956AEF006C065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c33ae7f4-f088-4635-935d-8f7505a77bcf";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74198FD51D956AEF006C065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FOCUS/FOCUS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FOCUS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JL1M.FOCUS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c33ae7f4-f088-4635-935d-8f7505a77bcf";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74198FD61D956AEF006C065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FOCUS/FOCUS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FOCUS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JL1M.FOCUS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c33ae7f4-f088-4635-935d-8f7505a77bcf";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74198FD81D956AEF006C065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FOCUSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLim.FOCUSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOCUS.app/FOCUS";
+			};
+			name = Debug;
+		};
+		74198FD91D956AEF006C065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FOCUSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLim.FOCUSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOCUS.app/FOCUS";
+			};
+			name = Release;
+		};
+		74198FDB1D956AEF006C065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FOCUSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLim.FOCUSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FOCUS;
+			};
+			name = Debug;
+		};
+		74198FDC1D956AEF006C065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FOCUSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JLim.FOCUSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FOCUS;
+			};
+			name = Release;
+		};
+		741990B11D977A57006C065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "FOCUS wk Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JL1M.FOCUS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		741990B21D977A57006C065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "FOCUS wk Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JL1M.FOCUS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		741990B51D977A57006C065A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FOCUS wk/FOCUS wk.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FOCUS_wk_Extension;
+				INFOPLIST_FILE = "FOCUS wk/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = JL1M.FOCUS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		741990B61D977A57006C065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FOCUS wk/FOCUS wk.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FOCUS_wk_Extension;
+				INFOPLIST_FILE = "FOCUS wk/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = JL1M.FOCUS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74198FA71D956AEE006C065A /* Build configuration list for PBXProject "FOCUS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74198FD21D956AEF006C065A /* Debug */,
+				74198FD31D956AEF006C065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74198FD41D956AEF006C065A /* Build configuration list for PBXNativeTarget "FOCUS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74198FD51D956AEF006C065A /* Debug */,
+				74198FD61D956AEF006C065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74198FD71D956AEF006C065A /* Build configuration list for PBXNativeTarget "FOCUSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74198FD81D956AEF006C065A /* Debug */,
+				74198FD91D956AEF006C065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74198FDA1D956AEF006C065A /* Build configuration list for PBXNativeTarget "FOCUSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74198FDB1D956AEF006C065A /* Debug */,
+				74198FDC1D956AEF006C065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741990B01D977A57006C065A /* Build configuration list for PBXNativeTarget "FOCUS wk Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741990B11D977A57006C065A /* Debug */,
+				741990B21D977A57006C065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741990B41D977A57006C065A /* Build configuration list for PBXNativeTarget "FOCUS wk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741990B51D977A57006C065A /* Debug */,
+				741990B61D977A57006C065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74198FA41D956AEE006C065A /* Project object */;
+}
